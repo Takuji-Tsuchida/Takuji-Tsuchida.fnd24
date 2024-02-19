@@ -1,0 +1,29 @@
+/* container */
+.inputSection{
+    margin:0px 0px 40px 0px;
+    width:100%;
+    text-align:center;
+}
+
+#map_leaflet {
+    width: 100%;
+}
+
+#time {
+    margin:0px 0px 0px 0px;
+    text-align: right;
+    font-size: 10px;
+}
+
+#place1 {
+    margin:0px 10px 0px 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.heading{
+    margin:0px 0px 40px 0px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
