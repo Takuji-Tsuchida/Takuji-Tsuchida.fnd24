@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+    <head>
+        <meta name="author" content="Takuji Tsuchida" />
+        <meta charset="utf-8">
+        <title>地　図</title>
+        <link rel="stylesheet" href="modules/osm_modules/leaflet.css">
+        <script type="text/javascript" src="modules/osm_modules/leaflet.js"></script>
+        <script type="text/javascript" src="modules/helper.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section class="inputSection">
+            <h1 class="heading">地　図</h1>
+            <p> 場所の指定：<input id = "input1" type="text">
+                           <button id="button1" type="button">検索</button>
+            </p>
+            <p id="place1"></p>
+            <div id="map_leaflet" style="height: 360px;"></div>
+            <p id="time"><span id="view_time"></span></p>
+        </section>
+    </body>
+    <script type="text/javascript" src="scripts.js"></script>
+</html>
